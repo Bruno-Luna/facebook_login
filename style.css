@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI',  sans-serif;
+}
+
+:root{
+    --OneColor:#166FE5;
+    --SecColor: #36A420;
+    --BgColor: #F0F2F5;
+    
+}
+
+body{
+    max-width: 100%;
+    height: 90vh;
+    background-color: var(--BgColor);
+}
+
+main{
+ 
+}
+
+main .container{
+   margin-top: 3rem;
+}
+
+main .box-left{
+    margin-bottom: 1.5rem;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 3.1rem;
+    color: var(--OneColor);
+}
+
+.box-left p{
+    display: none;
+}
+
+form{
+    
+  
+}
+
+form .box-left{
+
+}
+
+form .box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 16px;
+}
+
+form .box-right input{
+    font-size: 1rem;
+    padding: .5rem;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+}
+
+input[type=email]:focus, input[type=password]:focus{
+    opacity: 0.7;
+}
+
+input[type=submit]{
+    background-color: var(--OneColor);
+
+}
+
+input[type=submit]:hover{
+    background-color: hsl(214, 82%, 46%);
+}
+
+input[type=button]:hover{
+    background-color: hsl(110, 67%, 35%);
+}
+
+input[type=button]{
+    background-color: var(--SecColor);
+    
+}
+
+input[type=submit], input[type=button]{
+    padding: .6rem;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+form .box-right .esqueceu-criar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form .box-right .esqueceu-criar input{
+
+}
+
+.esqueceu-criar a{
+    color: #18A1F6;
+
+}
+
+.esqueceu-criar a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.paragrafo{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.paragrafo a{
+     font-weight: 500;
+}
+
+footer{
+    text-align: center;
+
+    width: 100%;
+    margin: 0 16px;
+    height: 15%;
+    margin-top: 5rem;
+    bottom: 0;
+}
+
+@media screen and(min-width:728px){
+    body{
+        max-width: 100%;
+        height: 100vh;
+        
+    }
+    
+    
+}
+
+
+
+
+
