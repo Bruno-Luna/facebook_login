@@ -8,7 +8,7 @@
 
 :root{
     --OneColor:#166FE5;
-    --SecColor: #36A420;
+    --SecColor: #43c12a;
     --BgColor: #F0F2F5;
     
 }
@@ -28,7 +28,7 @@ main .container{
 }
 
 main .box-left{
-    margin-bottom: 1.5rem;
+
 }
 
 
@@ -38,9 +38,10 @@ h1{
     color: var(--OneColor);
 }
 
-.box-left p{
-    display: none;
+.box-left p, .paragrafo p, .paragrafo p a{
+    visibility:hidden;
 }
+
 
 form{
     
@@ -67,16 +68,15 @@ form .box-right input{
 
 input[type=email]:focus, input[type=password]:focus{
     opacity: 0.7;
+    outline-color: var(--OneColor);
+    border:  1px 11px 10px var(--OneColor);
 }
 
 input[type=submit]{
     background-color: var(--OneColor);
-
+    
 }
 
-input[type=submit]:hover{
-    background-color: hsl(214, 82%, 46%);
-}
 
 input[type=button]:hover{
     background-color: hsl(110, 67%, 35%);
@@ -97,6 +97,10 @@ input[type=submit], input[type=button]{
 
 }
 
+.esqueceu-criar a, input[type=submit], input[type=button]{
+    cursor: pointer;
+
+}
 form .box-right .esqueceu-criar{
     display: flex;
     flex-direction: column;
@@ -113,45 +117,114 @@ form .box-right .esqueceu-criar input{
 
 }
 
-.esqueceu-criar a:hover{
-    text-decoration: underline;
-}
-
 hr{
     width: 100%;
     opacity: 0.5;
 }
 
+
 .paragrafo{
     text-align: center;
-    margin-top: 1rem;
+    margin-top: .8rem;
 }
 
+
 .paragrafo a{
+   
+    color: #000;
      font-weight: 500;
 }
 
 footer{
-    text-align: center;
-
-    width: 100%;
-    margin: 0 16px;
-    height: 15%;
-    margin-top: 5rem;
-    bottom: 0;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
 }
 
-@media screen and(min-width:728px){
+footer p{
+    color: rgb(0, 0, 0);
+}
+
+footer p a{
+    color: var(--OneColor);
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+  
     body{
-        max-width: 100%;
-        height: 100vh;
+        
+    }
+    
+    main{
+        height: 70vh;
+
+    }
+    
+    main .container{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 20vh;
+       
+    }
+    
+    main .box-left{
         
     }
     
     
+    h1{
+        text-align: left;
+        font-size: 4rem;
+    }
+    
+    .box-left p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    form{
+      background-color: #fff;   
+      border-radius: 5px;
+      padding: 1rem 0; 
+    }
+
+    .box-right input[type=submit]{
+        background-color: var(--OneColor);
+        font-size: 25px;
+    }
+
+    input[type=submit]:hover{
+        background-color: hsl(214, 82%, 46%);
+    }
+
+    .box-right input{
+        height: 60px;
+    }
+    
+    .paragrafo{
+        
+    }
+    
+    .paragrafo a:hover, .esqueceu-criar a:hover{
+        text-decoration: underline;
+    }
+
+    .box-left p, .paragrafo p, .paragrafo p a{
+        visibility:visible;
+    }
+    
+    footer{
+        margin-top: 2.8rem;
+    
 }
 
 
-
+}
 
 
