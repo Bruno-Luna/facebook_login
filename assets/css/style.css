@@ -15,16 +15,16 @@
 
 body{
     max-width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: var(--BgColor);
 }
 
 main{
- 
+    height: 80vh;
 }
 
 main .container{
-   margin-top: 3rem;
+   margin-top: 3.5rem;
 }
 
 main .box-left{
@@ -33,20 +33,17 @@ main .box-left{
 
 
 h1{
+    margin-bottom: 3rem;
     text-align: center;
     font-size: 3.1rem;
     color: var(--OneColor);
 }
 
 .box-left p, .paragrafo p, .paragrafo p a{
-    visibility:hidden;
+    display: none;
 }
 
 
-form{
-    
-  
-}
 
 form .box-left{
 
@@ -55,15 +52,21 @@ form .box-left{
 form .box-right{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     margin: 0 16px;
+   
 }
 
 form .box-right input{
     font-size: 1rem;
-    padding: .5rem;
+    padding: .8rem;
     border: 1px solid hsl(0, 0%, 80%);
     border-radius: 5px;
+}
+
+input[type=email], input[type=password]{
+    font-weight: 500;
+
 }
 
 input[type=email]:focus, input[type=password]:focus{
@@ -79,7 +82,7 @@ input[type=submit]{
 
 
 input[type=button]:hover{
-    background-color: hsl(110, 67%, 35%);
+    background-color: hsl(110, 67%, 41%);
 }
 
 input[type=button]{
@@ -105,7 +108,7 @@ form .box-right .esqueceu-criar{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 form .box-right .esqueceu-criar input{
@@ -136,11 +139,12 @@ hr{
 }
 
 footer{
-    height: 12vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    background-color: hsl(216, 20%, 85%);
     
 }
 
@@ -154,7 +158,7 @@ footer p a{
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   
     body{
         
@@ -181,6 +185,7 @@ footer p a{
     h1{
         text-align: left;
         font-size: 4rem;
+        margin-bottom: .4rem;
     }
     
     .box-left p{
@@ -192,20 +197,22 @@ footer p a{
       background-color: #fff;   
       border-radius: 5px;
       padding: 1rem 0; 
+      box-shadow: 4px 4px 16px hsl(0, 0%, 74%);
+    
     }
 
     .box-right input[type=submit]{
         background-color: var(--OneColor);
-        font-size: 25px;
     }
 
     input[type=submit]:hover{
         background-color: hsl(214, 82%, 46%);
     }
 
-    .box-right input{
-        height: 60px;
+    .box-right input[type=button], .box-right input[type=submit]{
+        font-size: 22px;
     }
+
     
     .paragrafo{
         
@@ -216,13 +223,18 @@ footer p a{
     }
 
     .box-left p, .paragrafo p, .paragrafo p a{
-        visibility:visible;
+        display: initial;
     }
     
     footer{
-        margin-top: 2.8rem;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
     
 }
+    
 
 
 }
