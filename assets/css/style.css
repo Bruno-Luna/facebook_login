@@ -32,13 +32,6 @@ main .box-left{
 }
 
 
-h1{
-    margin-bottom: 3rem;
-    text-align: center;
-    font-size: 3.1rem;
-    color: var(--OneColor);
-}
-
 .box-left p, .paragrafo p, .paragrafo p a{
     display: none;
 }
@@ -46,6 +39,22 @@ h1{
 
 
 form .box-left{
+  
+    
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--OneColor);
+    -webkit-text-stroke: 2px var(--OneColor);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #fff;
 
 }
 
@@ -53,7 +62,7 @@ form .box-right{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin: 0 16px;
+    margin: 0rem 1rem;
    
 }
 
@@ -111,9 +120,6 @@ form .box-right .esqueceu-criar{
     gap: 30px;
 }
 
-form .box-right .esqueceu-criar input{
-
-}
 
 .esqueceu-criar a{
     color: #18A1F6;
@@ -143,9 +149,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
     background-color: hsl(216, 20%, 85%);
-    
 }
 
 footer p{
@@ -154,6 +158,7 @@ footer p{
 
 footer p a{
     color: var(--OneColor);
+    font-weight: 500;
     
 }
 
@@ -166,25 +171,27 @@ footer p a{
     
     main{
         height: 70vh;
-
+     
     }
     
     main .container{
         display: flex;
         justify-content:space-around;
         align-items: center;
-        margin-top: 20vh;
+        margin-top: 3.5rem;
        
     }
     
     main .box-left{
         
     }
+
     
     
     h1{
         text-align: left;
         font-size: 4rem;
+        margin-left: 0;
         margin-bottom: .4rem;
     }
     
@@ -198,7 +205,6 @@ footer p a{
       border-radius: 5px;
       padding: 1rem 0; 
       box-shadow: 4px 4px 16px hsl(0, 0%, 74%);
-    
     }
 
     .box-right input[type=submit]{
@@ -234,9 +240,8 @@ footer p a{
     margin-top: 6rem;
     
 }
-    
-
 
 }
+
 
 
