@@ -27,21 +27,10 @@ main .container{
    margin-top: 3.5rem;
 }
 
-main .box-left{
-
-}
-
-
 .box-left p, .paragrafo p, .paragrafo p a{
     display: none;
 }
 
-
-
-form .box-left{
-  
-    
-}
 
 h1{
     margin-bottom: 2rem;
@@ -153,7 +142,7 @@ footer{
 }
 
 footer p{
-    color: rgb(0, 0, 0);
+    color: #000;
 }
 
 footer p a{
@@ -165,10 +154,6 @@ footer p a{
 
 @media only screen and (min-width: 800px) {
   
-    body{
-        
-    }
-    
     main{
         height: 70vh;
      
@@ -181,13 +166,7 @@ footer p a{
         margin-top: 3.5rem;
        
     }
-    
-    main .box-left{
-        
-    }
 
-    
-    
     h1{
         text-align: left;
         font-size: 4rem;
@@ -204,7 +183,7 @@ footer p a{
       background-color: #fff;   
       border-radius: 5px;
       padding: 1rem 0; 
-      box-shadow: 4px 4px 16px hsl(0, 0%, 74%);
+      box-shadow: 4px 4px 16px hsl(0, 0%, 80%);
     }
 
     .box-right input[type=submit]{
@@ -219,10 +198,6 @@ footer p a{
         font-size: 22px;
     }
 
-    
-    .paragrafo{
-        
-    }
     
     .paragrafo a:hover, .esqueceu-criar a:hover{
         text-decoration: underline;
