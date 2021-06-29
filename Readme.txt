@@ -1,7 +1,3 @@
-# :construction: Em Construção :construction:
-
-
-
 # Facebook_login
 
 Neste projeto/desafio pessoal, refiz a página de login da rede social Facebook. Com esse projeto pude exercitar algumas habilidades de posicionamento dos elementos, utilizando: 'display: flex' , 'flex-direction' , 'justify-content' e 'align-items', bem como responsividade em tela. Este projeto foi pensado com o conceito de mobile-first.
@@ -37,11 +33,13 @@ https://bruno-luna.github.io/facebook_login/
 
 ## Especificações:
 
-- Fontes utilizada:  
+- ### Fontes utilizada:  
 
   - `Segoe UI, sans-serif`
 
-- Cores utilizadas:
+    
+
+- ### Cores utilizadas:
 
   - Branco: ` #fff, #F0F2F5`
 
@@ -61,12 +59,18 @@ https://bruno-luna.github.io/facebook_login/
 
 ## Screenshot:
 
-![]()
+### Desktop:
+
+![](https://github.com/Bruno-Luna/facebook_login/blob/master/assets/screenshot/desktop.png)
 
 
 
-![]()
+### Tablet:
+
+![](https://github.com/Bruno-Luna/facebook_login/blob/master/assets/screenshot/tablet.png)
 
 
 
-![]()
+### Mobile:
+
+![](https://github.com/Bruno-Luna/facebook_login/blob/master/assets/screenshot/mobile.png)
