@@ -44,17 +44,17 @@ https://bruno-luna.github.io/facebook_login/
   - Branco: ` #fff, #F0F2F5`
 
   - Preto: `#000`
-  
+
   - Azul escuro: `#166FE5, #18A1F6, hsl(214, 82%, 46%)`
-  
+
   - Azul claro: `hsl(216, 20%, 85%)`
-  
+
   - Verde: ` hsl(110, 67%, 41%), #43c12a`
-  
+
   - Cinza claro: `hsl(0, 0%, 80%) `
-  
+
     
-  
+
     
 
 ## Screenshot:
